@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Style for the entire app container */
+.app-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the todo list heading */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the todo form input and button */
+  .todo-form {
+    display: flex;
+  }
+  
+  .todo-input {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for each todo item */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    font-size: 18px;
+  }
+  
+  .todo-item button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  body {
+    background: linear-gradient(to bottom, #1ccb45, #3e07d6); /* Adjust gradient colors as needed */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the entire app container */
+  .app-container {
+    max-width: 400px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
